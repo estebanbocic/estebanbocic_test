@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="EstebanBocic_Test::ebocic" title="EstebanBocic Test Module" module="EstebanBocic_Test" sortOrder="100" resource="EstebanBocic_Test::banner"/>
+        <add id="EstebanBocic_Test::banner" title="EstebanBocic Banner Manager" module="EstebanBocic_Test" sortOrder="1" parent="EstebanBocic_Test::ebocic" action="banner/banner" resource="EstebanBocic_Test::banner"/>
+    </menu>
+</config>
